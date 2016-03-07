@@ -554,7 +554,7 @@ class Window():
                       True, 0, [], do_nothing=True)
 
         # TODO: fix self.cursor_x >= w
-        self.cursor_x = len(text)
+        self.cursor_x = 0
         if self.cursor_x >= w:
             self.cursor_x = w - 1
 

@@ -68,7 +68,7 @@ class InlineEd(Window):
         self.screen = screen
         y = self.par.cursor_y
 
-        i = self.par.cursor_x # index of the cursor in self.text
+        i = 0  # index of the cursor in self.text
 
         while 1:
             (h, w) = screen.getmaxyx()
